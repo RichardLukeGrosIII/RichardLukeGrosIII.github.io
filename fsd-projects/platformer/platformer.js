@@ -40,7 +40,7 @@ $(function () {
     createPlatform(300, 200, 100, 20, "white");
     createPlatform(100, 100, 100, 100, "black");
     // TODO 3 - Create Collectables
-    createCollectable("database", 600, 500);
+    createCollectable("gold", 600, 500);
     createCollectable("diamond", 1350, 300);
     createCollectable("grace", 1000, 300);
     createCollectable("kennedi", 700, 200);
