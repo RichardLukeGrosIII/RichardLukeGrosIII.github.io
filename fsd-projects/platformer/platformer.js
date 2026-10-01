@@ -51,11 +51,12 @@ $(function () {
     createCollectable("research", 200, 150);
     createCollectable("goldCoin", 125, 50);
     // TODO 4 - Create Cannons
+    createCannon("top", 50, 750, 20, 10, 50, 1450, 2)
     createCannon("top", 800, 1500);
     createCannon("right", 775, 1000);
-    createCannon("top", 50, 750, 20, 10, 50, 1450, 2)
     createCannon("bottom", 200, 2000);
     createCannon("left", 190, 2500);
+    // createCannon("top", 1450, 0, 20, 10, 50, 1450, 1)
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
