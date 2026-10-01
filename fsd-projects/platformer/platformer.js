@@ -31,12 +31,12 @@ $(function () {
       console.log(toggleGrid);
 
     // TODO 2 - Create Platforms
-    createPlatform(500, 650, 200, 20, "red");
+    createPlatform(500, 650, 200, 20);
     createPlatform(850, 600, 50, 20, "purple");
     createPlatform(1000, 500, 100, 20, "blue");
     createPlatform(1200, 425, 100, 20, "yellow");
     createPlatform(800, 350, 150, 20, "orange");
-    createPlatform(500, 250, 100, 20, "green");
+    createPlatform(500, 250, 100, 20, "green", 400, 600, 2, 250, 250, 0);
     createPlatform(300, 200, 100, 20, "white");
     createPlatform(100, 100, 100, 100, "black");
     createBadPlatform(900, 725, 100, 20, "red")
@@ -46,13 +46,14 @@ $(function () {
     createCollectable("goldCoin", 600, 500);
     createCollectable("research", 1350, 300);
     createCollectable("brick", 1000, 300);
-    createCollectable("database", 900, 200, 0, 1, 800, 1000, 2)
+    createCollectable("database", 900, 100, 0, 1, 800, 1000, 2)
     createCollectable("brick", 700, 200);
     createCollectable("research", 200, 150);
     createCollectable("goldCoin", 125, 50);
     // TODO 4 - Create Cannons
     createCannon("top", 800, 1500);
     createCannon("right", 775, 1000);
+    createCannon("top", 50, 750, 20, 10, 50, 1450, 2)
     createCannon("bottom", 200, 2000);
     createCannon("left", 190, 2500);
     //////////////////////////////////
