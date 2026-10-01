@@ -39,10 +39,14 @@ $(function () {
     createPlatform(500, 250, 100, 20, "green");
     createPlatform(300, 200, 100, 20, "white");
     createPlatform(100, 100, 100, 100, "black");
+    createBadPlatform(900, 725, 100, 20, "red")
+    createBadPlatform(200, 400, 100, 20, "red")
+    createBadPlatform(500, 400, 200, 20, "red")
     // TODO 3 - Create Collectables
     createCollectable("goldCoin", 600, 500);
     createCollectable("research", 1350, 300);
     createCollectable("brick", 1000, 300);
+    createCollectable("database", 900, 200, 0, 1, 800, 1000, 2)
     createCollectable("brick", 700, 200);
     createCollectable("research", 200, 150);
     createCollectable("goldCoin", 125, 50);
