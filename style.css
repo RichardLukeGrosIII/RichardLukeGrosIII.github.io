@@ -9,6 +9,10 @@ main {
   min-height: calc(100vh - 160px);
   gap: clamp(32px, 5vw, 80px);
 }
+#all-contents {
+  max-width: 800px;
+  margin: auto;
+}
 
 .sidebar {
   width: 100%;
