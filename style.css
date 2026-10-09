@@ -1,5 +1,5 @@
 body {
-  background-color: #ff9cae;
+  background-color: #bb00ff;
   color: rgb(255, 0, 0);
 }
 main {
@@ -32,7 +32,7 @@ h2 {
 
 .content > p {
   margin: 0;
-  color: #c305f3;
+  color: #000000;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
