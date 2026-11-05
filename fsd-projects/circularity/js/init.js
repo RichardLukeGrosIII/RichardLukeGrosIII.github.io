@@ -31,6 +31,14 @@ var init = function (window) {
             circles.push(circle);
         }
 
+        Gamification.init({
+            canvas: canvas,
+            view: view,
+            draw: draw,
+            physikz: physikz,
+            circles: circles,
+            game: game
+        });
 
         // TODO 3 : Call the drawCircle() function
         /*
@@ -83,9 +91,9 @@ physikz.updatePosition(circles[4]);
             physikz.updatePosition(circles[i]);
 
            }
-            
         }
-    
+        Gamification.update();
+
         /* 
         This Function should check the position of a circle that is passed to the 
         Function. If that circle drifts off the screen, this Function should move
